@@ -30,11 +30,3 @@ Open and run the Jupyter notebook located in the `kernel` repository:
 # Notebook path in kernel repo:
 nb/Qwen3_(4B)-GRPO.ipynb
 ```
-
-## CV Bullet Points
-- Fine-tuned a Qwen3 language model into a reasoning model using Group Relative Policy Optimization (GRPO) and LoRA (PEFT) via Unsloth and Hugging Face TRL.
-- Designed custom reward functions validating format compliance, numerical accuracy, and algebraic solution tolerances.
-- Configured pre-finetuning pipelines on math reasoning datasets to establish structured scratchpad output formatting.
-
-## Claims to Avoid
-- Do not claim production deployment of frontier reasoning models or multi-GPU cluster scaling.
